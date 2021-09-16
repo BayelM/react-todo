@@ -1,0 +1,27 @@
+.mainModal{
+    text-align: center;
+}
+
+.ntModal {
+    background: whitesmoke;
+    margin: 50px auto;
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    button{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
